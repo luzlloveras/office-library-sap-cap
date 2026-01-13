@@ -24,16 +24,22 @@
     "@sap/ux-specification": "^1.120.9"
   },
   "scripts": {
-    "start": "cds-serve",
+    "start": "./node_modules/.bin/cds-serve",
     "start-local": "npm run generate-entry-point && npm run cds-watch",
-    "generate-entry-point": "dev-cap-tools gen-entrypoint",
-    "cds-watch": "cds watch --open",
-    "watch-libraryapp": "cds watch --open libraryapp/webapp/index.html?sap-ui-xx-viewCache=false"
+    "generate-entry-point": "./node_modules/.bin/dev-cap-tools gen-entrypoint",
+    "cds-watch": "./node_modules/.bin/cds-serve",
+    "watch-libraryapp": "./node_modules/.bin/cds-serve"
   },
   "cds": {
     "requires": {
       "[production]": {
         "db": "hana"
+      },
+      "[development]": {
+        "db": {
+          "kind": "sqlite",
+          "database": "db.sqlite"
+        }
       },
       "app-service": {
         "impl": "@sap/low-code-event-handler"
