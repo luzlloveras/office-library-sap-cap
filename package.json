@@ -1,7 +1,7 @@
 {
   "name": "Office_Library_App",
   "version": "1.0.0",
-  "description": "Office Library App",
+  "description": "Library management app with books and authors",
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
   "private": true,

@@ -48,15 +48,12 @@ annotate officeLibrarySrv.Books with @UI.FieldGroup #GeneralInformationSection: 
     { $Type: 'UI.DataField', Value: title },
     { $Type: 'UI.DataField', Value: publicationDate },
     { $Type: 'UI.DataField', Value: genre }
-
   ]
 };
-
 
 annotate officeLibrarySrv.Books with @UI.FieldGroup #AuthorInformationSection: {
   $Type: 'UI.FieldGroupType', Data: [
     { $Type: 'UI.DataField', Value: Author.name }
-
   ]
 };
 
