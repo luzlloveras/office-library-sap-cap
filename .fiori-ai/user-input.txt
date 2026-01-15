@@ -1,1 +1,0 @@
-Create an app to maintain list of all books in office library with entities books and authors, where each book is linked to its author.
