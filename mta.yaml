@@ -126,22 +126,6 @@ modules:
       - name: Office_Library_App-service-destination
         parameters:
           content-target: true
-  - name: Office_Library_App-launchpad
-    type: html5
-    path: build/launchpad
-    build-parameters:
-      builder: custom
-      commands:
-        - npm install
-        - >-
-          npx -p @ui5/cli@^3.0.0 ui5 build --dest dist
-          --include-task=generateManifestBundle
-          --include-task=generateCachebusterInfo
-        - bash -c "cd dist && npx bestzip ../../../build/dist/launchpad.zip *"
-        - rm -rf dist
-      _artifactName: launchpad.zip
-      supported-platforms: []
-      build-result: ../../build/dist
   - name: Office_Library_App-aux-ui-deployer
     type: com.sap.application.content
     path: build/ui-deployer
@@ -151,10 +135,6 @@ modules:
         - name: Office_Library_App-libraryapp
           artifacts:
             - libraryapp.zip
-          target-path: resources
-        - name: Office_Library_App-launchpad
-          artifacts:
-            - launchpad.zip
           target-path: resources
     requires:
       - name: Office_Library_App-service-html5-apps-repo-host

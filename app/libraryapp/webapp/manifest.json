@@ -10,11 +10,6 @@
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "resources": "resources.json",
-    "sourceTemplate": {
-      "id": "@sap/generator-fiori:lrop",
-      "version": "1.13.3",
-      "toolsId": "f61f3af0-8df0-4bb4-b923-ef10ac59f3b3"
-    },
     "dataSources": {
       "mainService": {
         "uri": "odata/v4/office-library-srv/",
