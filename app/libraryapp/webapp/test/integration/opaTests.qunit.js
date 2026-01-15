@@ -8,7 +8,6 @@ sap.ui.require(
     function(JourneyRunner, opaJourney, BooksList, BooksObjectPage) {
         'use strict';
         var JourneyRunner = new JourneyRunner({
-            // start index.html in web folder
             launchUrl: sap.ui.require.toUrl('libraryapp') + '/index.html'
         });
 

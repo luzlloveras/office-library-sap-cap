@@ -16,19 +16,15 @@ sap.ui.define([
 
 
             opaTest("Navigate to ObjectPage", function (Given, When, Then) {
-                // Note: this test will fail if the ListReport page doesn't show any data
-                
                 When.onTheBooksList.onFilterBar().iExecuteSearch();
                 
                 Then.onTheBooksList.onTable().iCheckRows();
 
                 When.onTheBooksList.onTable().iPressRow(0);
                 Then.onTheBooksObjectPage.iSeeThisPage();
-
             });
 
             opaTest("Teardown", function (Given, When, Then) { 
-                // Cleanup
                 Given.iTearDownMyApp();
             });
         }
