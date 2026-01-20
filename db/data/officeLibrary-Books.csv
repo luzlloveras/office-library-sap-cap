@@ -1,6 +1,6 @@
-ID;title;publicationDate;genre;Author_ID
-4e8d0a68-e0a3-4a7c-b8d5-2a1bbe226a34;The Great Gatsby;2021-06-27;Fiction;697eb6d6-c881-44be-a964-5be349c11ed9
-f82b7ee8-9cf0-4e6e-869d-8430b64abf93;To Kill a Mockingbird;2021-06-27;Classic;7fce2c44-91b2-4859-a4b6-c5629c51c3cd
-93126b25-3732-41ef-88e4-41dbef025498;Pride and Prejudice;2021-06-27;Romance;243dd6d0-371a-461c-b16d-4ba467208133
-d5f047cd-2a1e-4729-b95d-eac9c0d64ba2;1984;2021-06-27;Dystopian;292f3fb7-fee0-4897-8ee8-eb7f0533e3af
-0b6b77d1-f7b0-4225-ad06-2b610bd7e5d4;The Catcher in the Rye;2021-06-27;Coming-of-age;e627d75a-1717-407b-9801-46b8a26de9ee
+ID;title;publicationDate;genre;status;statusCriticality;Author_ID
+4e8d0a68-e0a3-4a7c-b8d5-2a1bbe226a34;The Great Gatsby;2021-06-27;Fiction;AVAILABLE;3;697eb6d6-c881-44be-a964-5be349c11ed9
+f82b7ee8-9cf0-4e6e-869d-8430b64abf93;To Kill a Mockingbird;2021-06-27;Classic;BORROWED;1;7fce2c44-91b2-4859-a4b6-c5629c51c3cd
+93126b25-3732-41ef-88e4-41dbef025498;Pride and Prejudice;2021-06-27;Romance;RESERVED;2;243dd6d0-371a-461c-b16d-4ba467208133
+d5f047cd-2a1e-4729-b95d-eac9c0d64ba2;1984;2021-06-27;Dystopian;AVAILABLE;3;292f3fb7-fee0-4897-8ee8-eb7f0533e3af
+0b6b77d1-f7b0-4225-ad06-2b610bd7e5d4;The Catcher in the Rye;2021-06-27;Coming-of-age;BORROWED;1;e627d75a-1717-407b-9801-46b8a26de9ee
